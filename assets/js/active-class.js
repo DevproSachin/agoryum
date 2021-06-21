@@ -1,7 +1,6 @@
-$(document).ready(function() {
-$(".nav-link").click(function () {
-   // $(".nav-link").removeClass("active");
-    // $(".tab").addClass("active"); // instead of this do the below 
-    $(this).addClass("active");   
+$(document).ready(function(){
+  $('.navbar-nav li a').click(function(){
+    $('li a').removeClass("active");
+    $(this).addClass("active");
 });
 });
